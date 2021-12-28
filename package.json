@@ -1,0 +1,58 @@
+{
+	"name": "@ctx-core/ripple-effect-ui-solid",
+	"version": "0.1.0",
+	"description": "ctx-core ripple-effect Solidjs component",
+	"keywords": [
+		"ctx-core",
+		"ripple-effect"
+	],
+	"homepage": "https://github.com/ctx-core/ripple-effect-ui-solid#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/ripple-effect-ui-solid/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/ripple-effect-ui-solid.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"type": "module",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"build": "npm run compile",
+		"clean": "rimraf dist && npm run clean:tsbuildinfo",
+		"clean:tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
+		"compile": "npm run compile:source && npm run compile:declaration",
+		"compile:source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir dist",
+		"exec": "$@",
+		"prepublishOnly": "npm run clean && npm run build"
+	},
+	"dependencies": {
+		"@ctx-core/nanostores": "workspace:^0.3.0",
+		"@ctx-core/object": "workspace:^22.0.8",
+		"@ctx-core/ripple-effect": "workspace:^13.0.8",
+		"nanostores": "^0.5.8",
+		"solid-nanostores": "github:btakita/nanostores-solid#issues/2"
+	},
+	"devDependencies": {
+		"@swc/cli": "^0.1.55",
+		"@swc/core": "^1.2.123",
+		"rimraf": "^3.0.2",
+		"solid-js": "^1.2.6",
+		"solid-styled-components": "^0.27.3",
+		"tslib": "^2.3.1",
+		"typescript": "next"
+	},
+	"publishConfig": {
+		"access": "public",
+		"cache": "~/.npm"
+	},
+	"svelte": "./dist/index.js"
+}
