@@ -4,7 +4,7 @@
 		"allowSyntheticDefaultImports": true,
 		"composite": true,
 		"declaration": true,
-		"declarationDir": "dist",
+		"declarationDir": "lib",
 		"esModuleInterop": true,
 		"importsNotUsedAsValues": "error",
     "jsxImportSource": "solid-js",
@@ -18,7 +18,7 @@
 		"noImplicitThis": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"outDir": "dist",
+		"outDir": "lib",
 		"resolveJsonModule": true,
 		"rootDir": "src",
 		"sourceMap": true,
@@ -28,7 +28,7 @@
 	},
 	"exclude": [
 		"node_modules",
-		"dist"
+		"lib"
 	],
 	"references": []
 }
