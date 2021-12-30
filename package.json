@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect-ui-solid",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "ctx-core ripple-effect Solidjs component",
 	"keywords": [
 		"ctx-core",
@@ -17,38 +17,42 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
+	"source": "./src/index.ts",
+	"module": "./lib/index.js",
 	"types": "./lib/index.d.ts",
-	"exports": {
-		".": {
-			"import": "./lib/index.js"
-		},
-		"./package.json": "./package.json"
-	},
 	"scripts": {
-		"build": "npm run compile",
-		"clean": "rimraf lib && npm run clean:tsbuildinfo",
-		"clean:tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f lib/**/*.d.ts",
-		"compile": "npm run compile:source && npm run compile:declaration",
-		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
-		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
-		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build"
+		"build": "npm-run-all --parallel build:vite build:types",
+		"build:types": "tsc --build",
+		"build:vite": "vite build -c vite.config.ts",
+		"clean": "rimraf lib",
+		"prepublishOnly": "npm run clean && npm run build",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "tsm node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 pnpm test-unit",
+		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "workspace:^0.3.0",
-		"@ctx-core/object": "workspace:^22.0.8",
-		"@ctx-core/ripple-effect": "workspace:^13.0.8",
-		"nanostores": "^0.5.8",
-		"solid-nanostores": "github:btakita/nanostores-solid#issues/2"
+		"@ctx-core/ripple-effect": "workspace:^13.1.0"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.16.5",
+		"@ctx-core/object": "workspace:^22.0.8",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.123",
+		"@swc/core": "^1.2.124",
+		"babel-preset-solid": "^1.2.6",
+		"c8": "^7.10.0",
+		"check-dts": "^0.6.6",
+		"jsdom": "^19.0.0",
+		"npm-run-all": "^4.1.5",
 		"rimraf": "^3.0.2",
 		"solid-js": "^1.2.6",
 		"solid-styled-components": "^0.27.3",
 		"tslib": "^2.3.1",
-		"typescript": "next"
+		"tsm": "^2.2.1",
+		"typescript": "next",
+		"uvu": "^0.5.2",
+		"vite": "^2.7.9",
+		"vite-plugin-solid": "^2.1.4"
 	},
 	"publishConfig": {
 		"access": "public",

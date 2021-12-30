@@ -1,34 +1,18 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
-		"allowSyntheticDefaultImports": true,
-		"composite": true,
-		"declaration": true,
-		"declarationDir": "lib",
-		"esModuleInterop": true,
-		"importsNotUsedAsValues": "error",
     "jsxImportSource": "solid-js",
     "jsx": "preserve",
-		"lib": ["ESNext", "dom"],
-		"module": "ESNext",
+		"allowJs": true,
+		"lib": ["ESNext"],
+		"module": "esnext",
 		"moduleResolution": "node",
-		"noEmitOnError": true,
-		"noErrorTruncation": true,
-		"noImplicitAny": true,
-		"noImplicitThis": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"outDir": "lib",
 		"resolveJsonModule": true,
 		"rootDir": "src",
-		"sourceMap": true,
-		"strict": true,
-		"target": "ES2021",
-		"typeRoots": ["node_modules/@types"]
+		"outDir": "lib",
+		"declaration": true,
+		"declarationDir": "lib"
 	},
-	"exclude": [
-		"node_modules",
-		"lib"
-	],
-	"references": []
+  "include": ["src"],
+	"exclude": []
 }
