@@ -32,7 +32,7 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/ripple-effect": "workspace:^13.1.0"
+		"@ctx-core/ripple-effect": "workspace:^13.1.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.16.7",
