@@ -20,6 +20,7 @@
 	"source": "./src/index.ts",
 	"module": "./lib/index.js",
 	"types": "./lib/index.d.ts",
+	"svelte": "./lib/index.js",
 	"scripts": {
 		"build": "npm-run-all --parallel build:vite build:types",
 		"build:types": "tsc --build",
@@ -57,6 +58,5 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	},
-	"svelte": "./lib/index.js"
+	}
 }
