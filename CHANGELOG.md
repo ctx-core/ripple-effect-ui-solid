@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 0.1.5
+
+### Patch Changes
+
+- sideEffects = false
+- Updated dependencies
+  - @ctx-core/ripple-effect@13.1.4
+
 ## 0.1.4
 
 ### Patch Changes
