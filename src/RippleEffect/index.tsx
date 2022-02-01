@@ -3,13 +3,12 @@ import {
 } from 'solid-js'
 import { be_, Ctx } from '@ctx-core/object'
 export const RippleEffect_Context:Context<Ctx> = createContext(null)
-const key = 'RippleEffect_props$'
-export const RippleEffect_props$$$_b = be_(key, ()=>
+export const RippleEffect_props$$_ = be_('RippleEffect_props$$', ()=>
 	createSignal(null)
 )
 export const RippleEffect:Component<{ ctx?:Ctx }> = _props=>{
 	const props = mergeProps({ ctx: useContext(RippleEffect_Context) }, _props)
-	const [RippleEffect_props$, RippleEffect_props$$] = RippleEffect_props$$$_b(props.ctx)
+	const [RippleEffect_props$, RippleEffect_props$$] = RippleEffect_props$$_(props.ctx)
 	ensure_RippleEffect_props()
 	createEffect(()=>ensure_RippleEffect_props())
 	function ensure_RippleEffect_props() {

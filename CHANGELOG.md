@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 0.1.8
+
+### Patch Changes
+
+- fix: RippleEffect*props\$$_b=>RippleEffect_props$*
+
 ## 0.1.7
 
 ### Patch Changes
