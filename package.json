@@ -35,7 +35,7 @@
 		"@ctx-core/ripple-effect": "workspace:^13.1.4"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.16.12",
+		"@babel/core": "^7.17.0",
 		"@ctx-core/object": "workspace:^22.0.13",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.135",
