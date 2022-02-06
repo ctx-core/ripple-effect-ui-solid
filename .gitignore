@@ -4,3 +4,4 @@ COMMIT_EDITMSG
 lib
 types
 tsconfig.tsbuildinfo
+*.tgz
