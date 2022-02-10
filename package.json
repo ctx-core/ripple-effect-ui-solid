@@ -32,11 +32,11 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/ripple-effect": "workspace:^13.1.5"
+		"@ctx-core/ripple-effect": "^13.1.5"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.17.2",
-		"@ctx-core/object": "workspace:*",
+		"@ctx-core/object": "*",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.138",
 		"babel-preset-solid": "^1.3.6",
