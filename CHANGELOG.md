@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 0.1.13
+
+### Patch Changes
+
+- ddd775862: vite: ^2.8.6 -> ^2.9.0
+
 ## 0.1.12
 
 ### Patch Changes
