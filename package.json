@@ -32,13 +32,13 @@
 		"exec": "$@"
 	},
 	"dependencies": {
-		"@ctx-core/ripple-effect": "^13.1.10"
+		"@ctx-core/ripple-effect": "^13.1.11"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.17.9",
 		"@ctx-core/object": "^22.1.9",
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.172",
+		"@swc/core": "^1.2.173",
 		"babel-preset-solid": "^1.3.17",
 		"c8": "^7.11.2",
 		"check-dts": "^0.6.7",
