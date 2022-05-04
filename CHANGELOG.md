@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 0.1.21
+
+### Patch Changes
+
+- fix: build: tsconfig.json: lib: + "dom"
+
 ## 0.1.20
 
 ### Patch Changes
