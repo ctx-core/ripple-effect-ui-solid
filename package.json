@@ -38,7 +38,7 @@
 		"@babel/core": "^7.18.0",
 		"@ctx-core/object": "^22.1.10",
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.187",
+		"@swc/core": "^1.2.189",
 		"babel-preset-solid": "^1.4.2",
 		"c8": "^7.11.3",
 		"check-dts": "^0.6.7",
