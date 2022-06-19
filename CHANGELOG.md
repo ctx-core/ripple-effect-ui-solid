@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 0.1.33
+
+### Patch Changes
+
+- jsdom: ^19.0.0 -> ^20.0.0
+
 ## 0.1.32
 
 ### Patch Changes
