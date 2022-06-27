@@ -51,7 +51,7 @@
 		"tsm": "^2.2.1",
 		"typescript": "next",
 		"uvu": "^0.5.4",
-		"vite": "^2.9.12",
+		"vite": "^2.9.13",
 		"vite-plugin-solid": "^2.2.6"
 	},
 	"publishConfig": {
