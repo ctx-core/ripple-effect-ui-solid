@@ -3,22 +3,21 @@ import {
 } from 'solid-js'
 import { be_, Ctx } from '@ctx-core/object'
 export const RippleEffect_Context:Context<Ctx> = createContext(null)
-export const RippleEffect_props$$_ = be_('RippleEffect_props$$', ()=>
-	createSignal(null)
-)
+export const RippleEffect_props__ = be_('RippleEffect_props__', ()=>
+	createSignal(null))
 export const RippleEffect:Component<{ ctx?:Ctx }> = _props=>{
 	const props = mergeProps({ ctx: useContext(RippleEffect_Context) }, _props)
-	const [RippleEffect_props$, RippleEffect_props$$] = RippleEffect_props$$_(props.ctx)
+	const [RippleEffect_props_, RippleEffect_props__set] = RippleEffect_props__(props.ctx)
 	ensure_RippleEffect_props()
 	createEffect(()=>ensure_RippleEffect_props())
 	function ensure_RippleEffect_props() {
-		if (!RippleEffect_props$()) {
-			RippleEffect_props$$(props)
-			onCleanup(()=>RippleEffect_props$$(null))
+		if (!RippleEffect_props_()) {
+			RippleEffect_props__set(props)
+			onCleanup(()=>RippleEffect_props__set(null))
 		}
 	}
 	return <>
-		<Show when={RippleEffect_props$() === props}>
+		<Show when={RippleEffect_props_() === props}>
 			<style innerHTML={`
 				.ripple {
 					overflow: hidden;
