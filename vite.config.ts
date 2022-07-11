@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import path from 'path'
 import solid from 'vite-plugin-solid'
-import { name, version } from './package.json'
+import { name, version } from './package.json' assert { type: 'json' }
 export default defineConfig({
 	build: {
 		lib: {
