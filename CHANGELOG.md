@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.5
+
+### Patch Changes
+
+- import package.json: assert { type: 'json' }
+
 ## 1.0.4
 
 ### Patch Changes
@@ -30,7 +36,7 @@
 
 ### Major Changes
 
-- RippleEffect*props\\\\\\$\$*=>RippleEffect_props\_\_
+- RippleEffect*props\\\\\\\$\$*=>RippleEffect_props\_\_
 
 ## 0.1.35
 
