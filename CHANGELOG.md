@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.7
+
+### Patch Changes
+
+- vite-plugin-solid: ^2.2.6 -> ^2.3.0
+
 ## 1.0.6
 
 ### Patch Changes
@@ -42,7 +48,7 @@
 
 ### Major Changes
 
-- RippleEffect*props\\\\\\\\$\$*=>RippleEffect_props\_\_
+- RippleEffect*props\\\\\\\\\$\$*=>RippleEffect_props\_\_
 
 ## 0.1.35
 
