@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.13
+
+### Patch Changes
+
+- - jsdom
+
 ## 1.0.12
 
 ### Patch Changes
@@ -79,7 +85,7 @@
 
 ### Major Changes
 
-- RippleEffect*props\\\\\\\\\\\\\\$\$*=>RippleEffect_props\_\_
+- RippleEffect*props\\\\\\\\\\\\\\\$\$*=>RippleEffect_props\_\_
 
 ## 0.1.35
 
