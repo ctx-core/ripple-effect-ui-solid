@@ -1,5 +1,12 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.20
+
+### Patch Changes
+
+- babel-preset-solid: ^1.5.0 -> ^1.5.1
+- solid-js: ^1.5.0 -> ^1.5.1
+
 ## 1.0.19
 
 ### Patch Changes
@@ -122,7 +129,7 @@
 
 ### Major Changes
 
-- RippleEffect*props\\\\\\\\\\\\\\\\\\\\\$\$*=>RippleEffect_props\_\_
+- RippleEffect*props\\\\\\\\\\\\\\\\\\\\\\$\$*=>RippleEffect_props\_\_
 
 ## 0.1.35
 
