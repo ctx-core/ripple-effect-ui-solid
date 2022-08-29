@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.21
+
+### Patch Changes
+
+- tsx: ^3.8.2 -> ^3.9.0
+- Updated dependencies
+  - @ctx-core/ripple-effect@13.1.13
+
 ## 1.0.20
 
 ### Patch Changes
@@ -129,7 +137,7 @@
 
 ### Major Changes
 
-- RippleEffect*props\\\\\\\\\\\\\\\\\\\\\\$\$*=>RippleEffect_props\_\_
+- RippleEffect*props\\\\\\\\\\\\\\\\\\\\\\\$\$*=>RippleEffect_props\_\_
 
 ## 0.1.35
 
