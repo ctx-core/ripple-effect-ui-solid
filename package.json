@@ -36,7 +36,7 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.19.0",
-		"@ctx-core/object": "^22.2.7",
+		"@ctx-core/object": "^22.2.8",
 		"@swc/cli": "^0.1.57",
 		"@swc/core": "^1.2.247",
 		"babel-preset-solid": "^1.5.4",
