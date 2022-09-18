@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.27
+
+### Patch Changes
+
+- vite-plugin-solid: ^2.3.2 -> ^2.3.3
+
 ## 1.0.26
 
 ### Patch Changes
