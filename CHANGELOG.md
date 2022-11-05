@@ -1,5 +1,12 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.44
+
+### Patch Changes
+
+- @babel/core: ^7.19.6 -> ^7.20.2
+- vite-plugin-solid: ^2.3.10 -> ^2.4.0
+
 ## 1.0.43
 
 ### Patch Changes
