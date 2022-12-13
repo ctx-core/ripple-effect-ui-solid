@@ -1,5 +1,12 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.52
+
+### Patch Changes
+
+- solid-js: ^1.6.4 -> ^1.6.5
+- vite: ^4.0.0 -> ^4.0.1
+
 ## 1.0.51
 
 ### Patch Changes
