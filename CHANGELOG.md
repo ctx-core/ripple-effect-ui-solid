@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.56
+
+### Patch Changes
+
+- @babel/core: ^7.20.5 -> ^7.20.7
+
 ## 1.0.55
 
 ### Patch Changes
