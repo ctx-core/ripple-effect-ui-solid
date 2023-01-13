@@ -1,5 +1,15 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.80
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+- babel-preset-solid: ^1.6.7 -> ^1.6.9
+- solid-js: ^1.6.8 -> ^1.6.9
+- Updated dependencies
+  - @ctx-core/ripple-effect@13.1.24
+
 ## 1.0.79
 
 ### Patch Changes
