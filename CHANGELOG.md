@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.84
+
+### Patch Changes
+
+- tslib: ^2.4.1 -> ^2.5.0
+
 ## 1.0.83
 
 ### Patch Changes
