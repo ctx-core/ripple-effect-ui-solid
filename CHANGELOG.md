@@ -1,5 +1,12 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.0.85
+
+### Patch Changes
+
+- babel-preset-solid: ^1.6.9 -> ^1.6.10
+- solid-js: ^1.6.9 -> ^1.6.10
+
 ## 1.0.84
 
 ### Patch Changes
