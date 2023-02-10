@@ -9,6 +9,7 @@
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"rootDir": "src",
+		"skipLibCheck": true,
 		"outDir": "lib",
 		"declaration": true,
 		"declarationDir": "lib"

@@ -1,5 +1,16 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.1.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/ui-solid@6.0.4
+
 ## 1.0.95
 
 ### Patch Changes
