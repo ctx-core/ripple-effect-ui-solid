@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect-ui-solid",
-	"version": "1.1.22",
+	"version": "1.1.23",
 	"description": "ctx-core ripple-effect Solidjs component",
 	"keywords": [
 		"ctx-core",
@@ -31,7 +31,7 @@
 	"dependencies": {
 		"@ctx-core/object": "25.2.0",
 		"@ctx-core/ripple-effect": "^13.2.7",
-		"@ctx-core/ui-solid": "6.0.12",
+		"@ctx-core/ui-solid": "6.0.13",
 		"solid-js": "^1.6.11"
 	},
 	"devDependencies": {
