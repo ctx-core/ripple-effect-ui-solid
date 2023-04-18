@@ -29,7 +29,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/object": "27.4.4",
+		"@ctx-core/object": "^27.4.16",
 		"@ctx-core/ripple-effect": "^13.2.29",
 		"@ctx-core/ui-solid": "7.1.21",
 		"solid-js": "^1.7.3"
