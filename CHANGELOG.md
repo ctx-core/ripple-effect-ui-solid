@@ -1,5 +1,15 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.1.135
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/object@27.4.23
+  - @ctx-core/ripple-effect@13.2.48
+  - @ctx-core/ui-solid@7.1.40
+
 ## 1.1.134
 
 ### Patch Changes
