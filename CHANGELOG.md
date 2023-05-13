@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.1.155
+
+### Patch Changes
+
+- @ctx-core/ripple-effect: ^13.2.51 -> ^13.2.52
+
 ## 1.1.154
 
 ### Patch Changes
