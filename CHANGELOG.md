@@ -1,5 +1,16 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.2.0
+
+### Minor Changes
+
+- - RippleEffect**props**memo: aliased by RippleEffect**props**
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@28.0.5
+
 ## 1.1.208
 
 ### Patch Changes

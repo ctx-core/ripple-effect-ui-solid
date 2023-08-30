@@ -3,13 +3,16 @@ import { Style_ } from '@ctx-core/ui-solid'
 import { createContext, createEffect, createSignal, mergeProps, onCleanup, Show, useContext } from 'solid-js'
 /** @type {typeof import('./index.d.ts').RippleEffect_Context} */
 export const RippleEffect_Context = createContext(null)
-/** @type {typeof import('./index.d.ts').RippleEffect__props__} */
-export const RippleEffect__props__ = be_('RippleEffect__props__', ()=>
+/** @type {typeof import('./index.d.ts').RippleEffect__props__memo} */
+export const RippleEffect__props__memo = be_('RippleEffect__props__memo', ()=>
 	createSignal(null))
 /** @type {typeof import('./index.d.ts').RippleEffect} */
 export const RippleEffect = _props=>{
-	const props = mergeProps({ ctx: useContext(RippleEffect_Context) }, _props)
-	const [RippleEffect_props_, RippleEffect_props__set] = RippleEffect__props__(props.ctx)
+	const props =
+		mergeProps({
+			ctx: useContext(RippleEffect_Context)
+		}, _props)
+	const [RippleEffect_props_, RippleEffect_props__set] = RippleEffect__props__memo(props.ctx)
 	RippleEffect_props__ensure()
 	createEffect(()=>RippleEffect_props__ensure())
 	function RippleEffect_props__ensure() {
@@ -24,6 +27,7 @@ export const RippleEffect = _props=>{
 		</Show>
 	)
 }
+export { RippleEffect__props__memo as RippleEffect__props__ }
 //language=CSS
 const Style = Style_(()=>`
 	.ripple {
