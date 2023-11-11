@@ -1,5 +1,26 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.3.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@30.1.0
+  - @ctx-core/ripple-effect@13.3.0
+  - @ctx-core/ui-solid@21.0.0
+
 ## 1.2.35
 
 ### Patch Changes
