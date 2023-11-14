@@ -1,5 +1,15 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.3.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - @ctx-core/object@30.1.3
+  - @ctx-core/ripple-effect@13.3.3
+  - @ctx-core/ui-solid@21.0.3
+
 ## 1.3.2
 
 ### Patch Changes
