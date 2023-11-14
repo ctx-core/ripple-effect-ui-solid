@@ -1,5 +1,15 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.3.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/object@30.1.2
+  - @ctx-core/ripple-effect@13.3.2
+  - @ctx-core/ui-solid@21.0.2
+
 ## 1.3.1
 
 ### Patch Changes
