@@ -5,8 +5,8 @@ import { createContext, createEffect, createSignal, mergeProps, onCleanup, Show,
 export const RippleEffect_Context = createContext(null)
 /** @type {typeof import('./index.d.ts').RippleEffect__props__memo} */
 export const RippleEffect__props__memo = be_(()=>
-	createSignal(null)
-).config({ id: 'RippleEffect__props__memo' })
+	createSignal(null),
+{ id: 'RippleEffect__props__memo' })
 /** @type {typeof import('./index.d.ts').RippleEffect} */
 export const RippleEffect = _props=>{
 	const props =
