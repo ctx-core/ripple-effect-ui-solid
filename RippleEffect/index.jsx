@@ -1,5 +1,5 @@
-import { be_ } from '@ctx-core/object'
 import { Style_ } from '@ctx-core/ui-solid'
+import { be_ } from 'ctx-core/be'
 import { createContext, createEffect, createSignal, mergeProps, onCleanup, Show, useContext } from 'solid-js'
 /** @type {typeof import('./index.d.ts').RippleEffect_Context} */
 export const RippleEffect_Context = createContext(null)

@@ -1,4 +1,4 @@
-import type { Be, Ctx } from '@ctx-core/object'
+import type { Be, Ctx } from 'ctx-core/be'
 import type { Component, Context, Signal } from 'solid-js'
 export const RippleEffect_Context:Context<Ctx>
 export const RippleEffect__props__memo:Be<Signal<RippleEffect__props_T>>
