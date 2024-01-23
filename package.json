@@ -38,7 +38,7 @@
 	"dependencies": {
 		"@ctx-core/ripple-effect": "^13.3.109",
 		"@ctx-core/ui-solid": "21.0.119",
-		"ctx-core": "^5.27.0",
+		"ctx-core": "^5.27.1",
 		"solid-js": "^1.8.12"
 	},
 	"devDependencies": {
