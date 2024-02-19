@@ -1,6 +1,6 @@
 node_modules
 COMMIT_EDITMSG
-~/.npm
+.npm
 lib
 types
 tsconfig.tsbuildinfo
