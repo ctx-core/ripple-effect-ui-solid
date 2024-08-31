@@ -1,5 +1,17 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.3.234
+
+### Patch Changes
+
+- solid-js: ^1.8.20 -> ^1.8.22
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@7.2.31
+  - @ctx-core/ui-solid@21.0.222
+
 ## 1.3.233
 
 ### Patch Changes
