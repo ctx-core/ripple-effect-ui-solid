@@ -35,7 +35,7 @@
 		"exec": "$@",
 		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
 		"test": "pnpm run /^test:/",
-		"test:types": "check-dts",
+		"test:types": "tsc --noEmit",
 		"test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
@@ -47,7 +47,6 @@
 	},
 	"devDependencies": {
 		"c8": "^11.0.0",
-		"check-dts": "^0.9.0",
 		"tsx": "^4.21.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
