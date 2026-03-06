@@ -1,5 +1,15 @@
 # @ctx-core/ripple-effect-ui-solid
 
+## 1.3.238
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/ripple-effect@13.3.210
+  - @ctx-core/ui-solid@21.0.225
+
 ## 1.3.237
 
 ### Patch Changes
